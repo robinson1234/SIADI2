@@ -1,0 +1,35 @@
+body {
+  color:  #000000;
+  font-family:verdana;
+  
+}
+
+h1 {
+  letter-spacing:8px;
+  word-spacing:20px;
+  text-transform:capitalize;
+}
+p strong{
+  color:#91E3FA;
+  margin: auto;
+}
+
+input{
+	margin: 0px;
+}
+.centradoformulario{
+	font-family: verdana;
+	font-size:15px;
+	text-align:center;
+    background-color: #91E3FA;
+    height:58px;
+}
+
+.descripcion{
+ font-family:verdana;
+ font-size:17px;
+}
+.valor{
+	font-family:verdana;
+	font-size:17px;
+}

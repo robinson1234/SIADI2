@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>	
+<head>
+<title>INGRESAR CLIENTES</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href=C:\xampp\htdocs\actividad8\Estilos.css>		
+</head>
+<body>
+	<h1 style="color:#3366ff;background-color:#91E3FA"><center><em>VARIEDADES SHEKINAH</center></h1>
+<fieldset>
+	 <img src="C:\xampp\htdocs\actividad8\Logo Nuevo.png" title="con derechos de autor" alt="adsi" style="max-width: 30%; max-height: 90px;"> 
+
+  <div id="formulario">
+ <form name= "ingresar clientes" action="proceso.php" method="post">
+ 	<table borde="0" align="center">
+ 		 <tr>
+	     <td class="centradoformulario" colspan="2"><em>REGISTRO DE CLIENTES:</td>  
+     </tr>  
+
+	<tr>
+	     <td class="descripcion">Nombres del cliente:</td>
+	     <td class="valor">
+		 <input type="text" name="Nombredu" maxlength="10" size="40" placeholder="Ejemplo"/>
+		 </td>
+     </tr>  
+
+	<tr>
+	     <td class="descripcion">Apellidos del cliente:</td>
+	     <td class="valor">
+		 <input type="text" name="Apellidos" maxlength="10" size="40" placeholder="Ejemplo"/>
+		 </td>
+     </tr>  
+    
+    <tr>
+	   <td class="descripcion">Tipo De Docmento:</td>
+	   <td class="valor">
+	   <input type="radio" name="Identificacion" value="cc"/>C.C
+	   <input type="radio" name="Identificacion" value="ti"/>T.I
+	   <input type="radio" name="Identificacion" value="p"/>Pasaporte
+	   </td>
+	   </tr>
+
+
+	  <tr>
+	   <td class="descripcion">Numero De documento:</td>
+	   <td class="valor">
+	   <input type="text" name="di" maxlength="20" placeholder="1033803016"/>
+	   </td>
+     </tr>
+
+      <tr>
+	   <td class="descripcion">Genero</td>
+	   <td class="valor">
+	   <select name="genero">
+	   <option value="1">Femenino</option>
+	   <option value="2">Masculino</option>
+	   <option value="3">Otros</option>
+	   </select>
+	   </td>
+     </tr>  
+	
+	 <tr>
+	   <td class="descripcion">Numero De Telefono:</td>
+	   <td class="valor">
+	   <input type="text" name="TC" maxlength="20" placeholder="3636125"/>
+	   </td>
+     </tr>
+	 <tr>
+	   <td class="descripcion">Numero De Celular:</td>
+	   <td class="valor">
+	   <input type="text" name="ncelular" maxlength="15" placeholder="3118694546"/>
+	   </td>
+     </tr>
+	<tr>
+	   <td class="descripcion">Direccion:</td>
+	   <td class="valor">
+	   <input type="text" name="Direccion" maxlength="15" placeholder="kr 17m #85a - 58 sur"/>
+	   </td>
+     </tr>
+	<tr>
+	   <td class="descripcion">Correo Electronico:</td>
+	   <td class="valor">
+	   <input type="text" name="c-electronico" maxlength="25" placeholder="3108571245"/>
+	   </td>
+     </tr>
+	
+     <tr>
+	   <td class="centradoformulario" colspan="7">
+	   <input type="submit" name="registrar" value="Guardar " onclick="alert('cliente registrado correctamente');">
+	   <input type="submit" name="cancelar" value="Cancelar " >
+	   
+	   </td>
+	   
+     </tr>  
+
+ 
+
+	
+	
+	
+
+
+ </div>
+</body>
+</html>
